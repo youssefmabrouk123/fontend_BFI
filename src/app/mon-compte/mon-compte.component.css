@@ -1,0 +1,62 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.form-control {
+    height: 50px; /* Augmente la hauteur des champs */
+}
+
+.text-center {
+    text-align: center;
+}
+.mt-4 {
+    margin-top: 1.5rem;
+}
+.btn-primary {
+    padding: 10px 150px; /* Augmente le padding pour un bouton plus grand */
+    font-size: 1.2rem; /* Augmente la taille de la police */
+    border-radius: 30px; /* Ajoute des coins arrondis */
+}    
+
+.btn-primary {
+    background-color: #009961;
+    border-color: #009961;
+    transform: scale(1.05); 
+}
+
+.btn-primary:hover{
+    background-color: #033819;
+    border-color: #033819;
+}
+
+.btn-primary-text {
+    font-size: 5px; /* Taille de la police plus petite */
+   
+}
+
+
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color:#009961;
+    border: none; /* Supprime les bordures par défaut */
+    border-radius: 50px;
+    cursor: pointer; /* Change le curseur en pointeur */
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #033819;
+}
+
+/* Style pour l'espacement sous le texte */
+.text-center {
+    margin-top: 20px; /* Ajustez cette valeur selon vos besoins */
+}
