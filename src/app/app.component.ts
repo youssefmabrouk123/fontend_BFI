@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { RecaptchaModule } from 'ng-recaptcha';
 
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
